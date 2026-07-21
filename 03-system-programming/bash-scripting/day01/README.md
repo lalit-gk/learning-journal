@@ -7,12 +7,12 @@ Welcome! This repository tracks my journey learning programming fundamentals usi
 ## 📁 Repository Structure
 
 * **[`01-basics/`](./01-basics)** - First scripts and testing basic Bash commands.
-* **`02-variables-and-data-types/`** - Practicing data storage and manipulation in variables.
-* **`03-conditional-statements/`** - Using `if`, `elif`, and `else` logic to control program flow.
-* **`04-input-and-output/`** - Gathering user input with `read` and printing styled output.
-* **`05-while-loops/`** - Writing `while` loops to repeat actions until conditions change.
-* **`06-for-loops/`** - Executing statements for set ranges, lists, and collections.
-* **`07-case-statements/`** - Comparing values against pattern lists for clean multi-branch logic.
+* **[`02-variable-and-datatypes/`](./02-variable-and-datatypes)** - Practicing data storage and manipulation in variables.
+* **[`03-input-and-output/`](./03-input-and-output)** - Gathering user input with `read` and printing styled output.
+* **[`04-conditional-statements/`](./04-conditional-statements)** - Using `if`, `elif`, and `else` logic to control program flow.
+* **[`05-while-loop/`](./05-while-loop)** - Writing `while` loops to repeat actions until conditions change.
+* **[`06-for-loop/`](./06-for-loop)** - Executing statements for set ranges, lists, and collections.
+* **[`07-case-statements/`](./07-case-statements)** - Comparing values against pattern lists for clean multi-branch logic.
 
 ---
 
@@ -24,5 +24,5 @@ Make sure you are in a Unix-like environment (Linux, macOS, or WSL on Windows) w
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+   git clone [https://github.com/lalit-gk/learning-journal/tree/main/03-system-programming/bash-scripting/day01.git](https://github.com/lalit-gk/learning-journal/tree/main/03-system-programming/bash-scripting/day01.git)
+   cd day01
