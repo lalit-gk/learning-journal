@@ -1,19 +1,28 @@
-# Learning Bash Fundamentals
+# 🐚 Learning Bash Fundamentals
 
-Welcome! This repository tracks my journey learning programming fundamentals using Bash. I am using this space to build strong core programming habits and track my daily progress.
+Welcome! This repository tracks my journey learning programming fundamentals using **Bash**. I am using this space to build strong core programming habits, document my learning path, and track my daily progress.
+
+---
 
 ## 📁 Repository Structure
 
-* **`01-basics/`** - first scipts and testing basic bash commands.
-* **`02-variables & data types/`** - Practicing data storage in variables.
-* **`03-condition statements (if,else)/`** - Using `if`, `elif`, and `else` logic statements to make decisions.
-* **`04-input & output/`** - Gathering user input and printing the output.
-* **`05-while loop/`** - Writing `while` loops to repeat actions efficiently.
-* **`06-for loop/`** - Executing statements a specific number of times.
-* **`07-case statements/`** - Compareing a given value against a list of patterns.
+* **`01-basics/`** - First scripts and testing basic Bash commands.
+* **`02-variables-and-data-types/`** - Practicing data storage and manipulation in variables.
+* **`03-conditional-statements/`** - Using `if`, `elif`, and `else` logic to control program flow.
+* **`04-input-and-output/`** - Gathering user input with `read` and printing styled output.
+* **`05-while-loops/`** - Writing `while` loops to repeat actions until conditions change.
+* **`06-for-loops/`** - Executing statements for set ranges, lists, and collections.
+* **`07-case-statements/`** - Comparing values against pattern lists for clean multi-branch logic.
+
+---
 
 ## 🚀 How to Run These Scripts
-1. Open your terminal application.
-2. Clone this repository or download the specific script.
-3. Make the script runnable by typing: `chmod u+x script_name.sh`
-4. Run the script by typing: `./script_name.sh`
+
+### Prerequisites
+Make sure you are in a Unix-like environment (Linux, macOS, or WSL on Windows) with Bash installed.
+
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
