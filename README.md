@@ -1,6 +1,6 @@
 # 🛠️ My Cloud, Linux & Programming Journal
 
-A practical, hands-on learning repository documenting my daily journey across Cloud Computing, Linux Administration, DevOps practices, and Scripting.
+A practical, hands-on learning repository documenting my daily journey across Cloud Infrastructure, Linux Fundamentals, System Programming, DevOps, Tools, Labs and Projects.
 
 <!-- BADGES SECTION -->
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -8,7 +8,7 @@ A practical, hands-on learning repository documenting my daily journey across Cl
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-> 🚀 **Latest Lab:** [Day 01: AWS S3 Static Bucket Setup](./cloud/day-01-aws-s3-cli) — Configured public bucket policies and deployed a static site using `aws-cli`.
+> 🚀 **Latest Lab:** [Day 01: Project](./05-labs-and-projects/projects/day-01-all-in-one-script) — Creating a project which show all the concepts of bash in one `Bash Scripting`.
 
 ---
 ## 📍 Quick Navigation
