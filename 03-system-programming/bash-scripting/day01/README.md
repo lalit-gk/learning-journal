@@ -6,7 +6,7 @@ Welcome! This repository tracks my journey learning programming fundamentals usi
 
 ## 📁 Repository Structure
 
-* **`01-basics/`** - First scripts and testing basic Bash commands.
+* **[`01-basics/`](./01-basics)** - First scripts and testing basic Bash commands.
 * **`02-variables-and-data-types/`** - Practicing data storage and manipulation in variables.
 * **`03-conditional-statements/`** - Using `if`, `elif`, and `else` logic to control program flow.
 * **`04-input-and-output/`** - Gathering user input with `read` and printing styled output.
