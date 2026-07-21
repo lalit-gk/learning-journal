@@ -1,7 +1,6 @@
 # learning-journal
 A practical learning journal and code repository covering Cloud Computing, Linux System Administration, Python/Bash Scripting, and DevOps tools.
 
-```markdown
 # 🛠️ My Cloud, Linux & Programming Journal
 
 Welcome to my hands-on laboratory! This repository tracks my daily technical learning, code scripts, and architecture labs.
