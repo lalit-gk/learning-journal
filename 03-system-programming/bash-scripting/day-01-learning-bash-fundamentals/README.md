@@ -20,9 +20,36 @@ Welcome! This repository tracks my journey learning programming fundamentals usi
 
 ### Prerequisites
 Make sure you are in a Unix-like environment (Linux, macOS, or WSL on Windows) with Bash installed.
+- **Git 2.25.0 or later** installed on your system.
+  - Check your version using: `git --version`
 
-### Steps
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/lalit-gk/learning-journal/tree/main/03-system-programming/bash-scripting/day01.git](https://github.com/lalit-gk/learning-journal/tree/main/03-system-programming/bash-scripting/day01.git)
-   cd day01
+---
+
+# How to Clone a Specific Sub-directory (Git Sparse Checkout)
+
+This guide provides step-by-step terminal instructions to download or clone **only a specific sub-directory** from a large Git repository without downloading the entire repository or unrelated project files.
+
+---
+
+## Using `git init` (Recommended for Clean Setups)
+
+This method initializes a new repository locally, sets up remote tracking, and pulls only the specified sub-directory.
+
+### Step-by-Step
+
+```bash
+# 1. Create and enter your target folder
+mkdir my-tutorials && cd my-tutorials
+
+# 2. Initialize a clean local repository
+git init
+
+# 3. Clone the sub-repository and enter the file
+git clone --depth 1 --filter=blob:none --no-checkout https://github.com/lalit-gk/learning-journal.git
+cd learning-journal
+
+# 4. Enable sparse-checkout and specify the sub-directory path
+git sparse-checkout set 03-system-programming/bash-scripting/day-01-learning-bash-fundamentals
+
+# 5. Checkout the specific branch
+git checkout
