@@ -16,7 +16,7 @@ Welcome! This repository tracks my journey learning programming fundamentals usi
 
 ---
 
-## 🚀 How to Run These Scripts
+# 🚀 How to Run These Scripts
 
 ### Prerequisites
 Make sure you are in a Unix-like environment (Linux, macOS, or WSL on Windows) with Bash installed.
@@ -25,17 +25,13 @@ Make sure you are in a Unix-like environment (Linux, macOS, or WSL on Windows) w
 
 ---
 
-# How to Clone a Specific Sub-directory (Git Sparse Checkout)
+## How to Clone a Specific Sub-directory (Git Sparse Checkout)
 
 This guide provides step-by-step terminal instructions to download or clone **only a specific sub-directory** from a large Git repository without downloading the entire repository or unrelated project files.
 
 ---
 
-## Using `git init` (Recommended for Clean Setups)
-
-This method initializes a new repository locally, sets up remote tracking, and pulls only the specified sub-directory.
-
-### Step-by-Step
+### Step-by-Step procedure
 
 ```bash
 # 1. Create and enter your target folder
@@ -53,3 +49,11 @@ git sparse-checkout set 03-system-programming/bash-scripting/day-01-learning-bas
 
 # 5. Checkout the specific branch
 git checkout
+
+# 6. Run script by going to the spcific folder give execute privilages
+chmod +x FILE_NAME.sh
+./FILE_NAME
+
+# If got any error please look at the path of the bash it changes in other system to check the path of bash and then copy the path in that .sh file
+which bash
+
