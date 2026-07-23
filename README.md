@@ -39,7 +39,7 @@ A practical, hands-on learning repository documenting my daily journey across Cl
 ### 💻 System Programming
 | Day | Topic | Key Tool / Skill | Proof & Lab Code |
 | :---: | :--- | :---: | :---: |
-| **01** | Bash-Scripting | `Bash Scripting` `CLI` `vim` `chmod` | [View Lab & Script ➡️](./03-system-programming/bash-scripting/day-01-learning-bash-fundamentals) |
+| **01** | Bash-Scripting | `Bash Scripting` `CLI` `vim` `chmod` `if|elif|else` `for` `while` `$1` | [View Lab & Script ➡️](./03-system-programming/bash-scripting/day-01-learning-bash-fundamentals) |
 
 ### 💻 DevOps and Tools
 | Day | Topic | Key Tool / Skill | Proof & Lab Code |
