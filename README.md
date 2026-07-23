@@ -18,31 +18,37 @@ A practical, hands-on learning repository documenting my daily journey across Cl
 
 ---
 ## 📍 Quick Navigation
-* [☁️ Cloud Infrastructure](#️-cloud-computing-awsdevops)
-* [🐧 Linux Fundamentals](#-linux-system-administration)
-* [💻 System Programming](#-programming--automation)
-* [💻 DevOps and Tools](#-programming--automation)
-* [💻 Labs and Projects](#-programming--automation)
+* [☁️ Cloud Infrastructure](#️-cloud-infrastructure)
+* [🐧 Linux Fundamentals](#-linux-fundamentals)
+* [💻 System Programming](#-system-programming)
+* [💻 DevOps and Tools](#-devops-and-tools)
+* [💻 Labs and Projects](#-labs-and-projects)
 * [⚙️ How to Run Code Locally](#️-how-to-run-code-locally)
 
 ---
 
 ## 📊 Progress Tracker
 
-### 🐧 Linux System Administration
+### ☁️ Cloud Infrastructure
 | Day | Topic | Key Tool / Skill | Proof & Lab Code |
 | :---: | :--- | :---: | :---: |
-| **01** | File Permissions & Sudoers Audit | `chmod` `chown` `visudo` | [View Lab & Script ➡️](./linux/day-01-user-permissions) |
 
-### ☁️ Cloud Computing (AWS/DevOps)
+### 🐧 Linux Fundamentals
 | Day | Topic | Key Tool / Skill | Proof & Lab Code |
 | :---: | :--- | :---: | :---: |
-| **01** | AWS S3 Static Bucket Setup | `AWS CLI` `S3` `IAM` | [View Lab & Script ➡️](./cloud/day-01-aws-s3-cli) |
 
-### 💻 Programming & Automation
+### 💻 System Programming
 | Day | Topic | Key Tool / Skill | Proof & Lab Code |
 | :---: | :--- | :---: | :---: |
-| **01** | System File Parsing & Cleanup | `Python 3` `os` `sys` | [View Lab & Script ➡️](./programming/day-01-python-basics) |
+| **01** | Bash-Scripting | `Bash Scripting` `CLI` `vim` `chmod` | [View Lab & Script ➡️](./03-system-programming/bash-scripting/day-01-learning-bash-fundamentals) |
+
+### 💻 DevOps and Tools
+| Day | Topic | Key Tool / Skill | Proof & Lab Code |
+| :---: | :--- | :---: | :---: |
+
+### 💻 Labs and Projects
+| Day | Topic | Key Tool / Skill | Proof & Lab Code |
+| :---: | :--- | :---: | :---: |
 
 ---
 
