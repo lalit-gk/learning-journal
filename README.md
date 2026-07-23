@@ -13,7 +13,7 @@ A practical, hands-on learning repository documenting my daily journey across Cl
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 
-> 🚀 **Latest Lab:** [Day 01: Project](./05-labs-and-projects/projects/day-01-all-in-one-script) — Creating a project which show all the concepts of bash in one `Bash Scripting`.
+> 🚀 **Latest Bash Programming:** [Day 01: Bash Fundamentals](./03-system-programming/bash-scripting/day-01-learning-bash-fundamentals) — Creating a project which show all the concepts of bash in one `Bash Scripting`.
 
 ---
 ## 📍 Quick Navigation
@@ -39,7 +39,7 @@ A practical, hands-on learning repository documenting my daily journey across Cl
 ### 💻 System Programming
 | Day | Topic | Key Tool / Skill | Proof & Lab Code |
 | :---: | :--- | :---: | :---: |
-| **01** | Bash-Scripting | `Bash Scripting` `CLI` `vim` `chmod` `if|elif|else` `for` `while` `$1` | [View Lab & Script ➡️](./03-system-programming/bash-scripting/day-01-learning-bash-fundamentals) |
+| **01** | Bash-Scripting | `Bash Scripting` `CLI` `vim` `chmod` `for` `while` `$1` | [View Lab & Script ➡️](./03-system-programming/bash-scripting/day-01-learning-bash-fundamentals) |
 
 ### 💻 DevOps and Tools
 | Day | Topic | Key Tool / Skill | Proof & Lab Code |
