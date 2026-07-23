@@ -11,7 +11,6 @@ A practical, hands-on learning repository documenting my daily journey across Cl
 ![DevOps](https://img.shields.io/badge/DevOps-Infinity-000000?style=for-the-badge&logo=devops&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 
 > 🚀 **Latest Lab:** [Day 01: Project](./05-labs-and-projects/projects/day-01-all-in-one-script) — Creating a project which show all the concepts of bash in one `Bash Scripting`.
@@ -53,8 +52,28 @@ A practical, hands-on learning repository documenting my daily journey across Cl
 ---
 
 ## ⚙️ How to Run Code Locally
+   
+```bash
+# 1. Create and enter your target folder
+mkdir my-tutorials && cd my-tutorials
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR-USERNAME/my_cloud_linux_learning_journal.git](https://github.com/YOUR-USERNAME/my_cloud_linux_learning_journal.git)
-   cd my_cloud_linux_learning_journal
+# 2. Initialize a clean local repository
+git init
+
+# 3. Clone the sub-repository and enter the file
+git clone --depth 1 --filter=blob:none --no-checkout https://github.com/lalit-gk/learning-journal.git
+cd learning-journal
+
+# 4. Enable sparse-checkout and specify the sub-directory path
+git sparse-checkout set NUMBER-NAME/SUB-FOLDER-NAME/DAY-NO-SUB-FOLDER-NAME
+`eg. git sparse-checkout set 03-system-programming/bash-scripting/day-01-learning-bash-fundamentals`
+
+# 5. Checkout the specific branch
+git checkout
+
+# 6. Run script by going to the specific folder give execute privilages
+chmod +x FILE_NAME.sh
+./FILE_NAME.sh
+
+# If got any error please look at the path of the bash it changes in other system to check the path of bash and then copy the path in that .sh file
+which bash
