@@ -66,7 +66,7 @@ cd learning-journal
 
 # 4. Enable sparse-checkout and specify the sub-directory path
 git sparse-checkout set NUMBER-NAME/SUB-FOLDER-NAME/DAY-NO-SUB-FOLDER-NAME
-`eg. git sparse-checkout set 03-system-programming/bash-scripting/day-01-learning-bash-fundamentals`
+example: git sparse-checkout set 03-system-programming/bash-scripting/day-01-learning-bash-fundamentals`
 
 # 5. Checkout the specific branch
 git checkout
